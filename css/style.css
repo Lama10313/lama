@@ -548,8 +548,8 @@ header {
 /* ================= BACK TO TOP ================================ */
 .back-to-top {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: env(safe-area-inset-bottom, 24px);
+  right: env(safe-area-inset-right, 24px);
   width: 50px;
   height: 50px;
   background: var(--primary);
@@ -571,9 +571,7 @@ header {
   height: 15px;
 }
 
-/* =========================================================
-   RESPONSIVE – MOBILE FIRST
-   ========================================================= */
+/* =========================================================RESPONSIVE – MOBILE FIRST========================================================= */
 
 /* ================= MOBILE (0–600px) ================= */
 @media (max-width: 600px) {
@@ -653,8 +651,9 @@ header {
   }
 
   .tool-card {
-    max-width: 100%;
     padding: 1.25rem;
+    max-width: 250px;
+    width: auto; 
   }
 
   /* ---------- Projects ---------- */
