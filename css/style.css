@@ -691,10 +691,7 @@ header {
 
   /* ---------- Back to top ---------- */
   .back-to-top {
-    width: 42px;
-    height: 42px;
-    bottom: 16px;
-    right: 16px;
+    display: none;
   }
 }
 
