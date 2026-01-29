@@ -645,7 +645,7 @@ header {
   /* ---------- Tools ---------- */
   .tools-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    
     justify-items: stretch; 
     padding-inline: 1.25rem;
     
