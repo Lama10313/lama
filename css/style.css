@@ -251,7 +251,7 @@ header {
   margin: 0 auto 3rem; 
 }
 
-/* Grid for tool-cards */
+
 .tools-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -647,13 +647,18 @@ header {
     grid-template-columns: 1fr;
     gap: 16px;
     justify-items: stretch; 
+    padding-inline: 1.25rem;
     
   }
 
+  #tools .container {
+    padding-inline: 0;
+  }
+
+
   .tool-card {
     padding: 1.25rem;
-    max-width: none;
-     width: 100%;
+    width: 100%;
   }
 
   /* ---------- Projects ---------- */
