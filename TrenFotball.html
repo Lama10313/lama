@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>TrenFotball – UX/UI Case Study | Lama Ghawi</title>
+
+  <meta
+    name="description"
+    content="UX/UI case study for TrenFotball – en effektiv MVP-løsning som forenkler fotballtreneres hverdag gjennom et strukturert videobibliotek."
+  />
+
+  <link rel="stylesheet" href="css/projects.css"/>
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<nav class="navbar">
+  <a href="index.html" class="back-home">
+    <img
+      src="images/arrow_back_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
+      alt=""
+      aria-hidden="true"
+      class="back-icon"
+    >
+    Tilbake til portefølje
+  </a>
+</nav>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<header class="hero">
+  <div class="container">
+
+    <h1>TrenFotball</h1>
+
+    <p class="hero-subtitle">
+      Forenklet øktplanlegging for fotballtrenere gjennom en målrettet MVP-løsning
+    </p>
+
+    <div class="project-meta">
+
+      <p>
+        <strong>Rolle:</strong>
+        UX/UI Designer
+      </p>
+
+      <p>
+        <strong>År:</strong>
+        2026
+      </p>
+
+      <p>
+        <strong>Verktøy:</strong>
+        Figma, Visily
+      </p>
+
+    </div>
+
+  </div>
+</header>
+
+
+<main class="content" id="case">
+
+
+<!-- =========================
+     01 — PROJECT OVERVIEW
+========================= -->
+
+<section class="intro">
+
+  <h2>Om prosjektet</h2>
+
+  <div class="text-image-row">
+
+    <div class="text-block">
+
+      <p>
+        TrenFotball ble utviklet som en skalerbar Minimum Viable Product (MVP) for å teste og validere en ny måte å distribuere treningsinnhold på. 
+        Målet var å bygge et strømlinjeformet videobibliotek begrenset til 90 kjerneøvelser, der trenere kan finne, evaluere og ta i bruk øvelser på sekunder – uavhengig av om de planlegger hjemme eller står på feltet.
+      </p>
+
+    </div>
+
+    <div class="image-block">
+
+      <img
+        class="project__img"
+        src="images/trenfotball.png"
+        alt="Forsiden til TrenFotball visuelt presentert på skrivebord og mobil"
+      />
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     02 — DESIGN CHALLENGE
+========================= -->
+
+<section>
+
+  <h2>Designutfordringen</h2>
+
+  <p>
+    Fotballtrenere i breddeidretten har ofte begrenset tid til forberedelser. Eksisterende plattformer krever ofte for mange klikk, har uklare kategorier eller overvelder brukeren med ustrukturert innhold.
+  </p>
+
+  <p>
+    Hovedutfordringen var å reduksjonsstyre støy: Hvordan gi umiddelbar tilgang til riktige øvelser basert på alderstrinn og type, uten å kreve tunge søkemotorer eller kompliserte registreringsprosesser?
+  </p>
+
+</section>
+
+
+<!-- =========================
+     03 — INSIGHTS
+========================= -->
+
+<section>
+
+  <h2>Brukerinnsikt (User Research)</h2>
+
+  <p>
+    Gjennom dybdeintervjuer med aktive trenere avdekket jeg tre kritiske brukerbehov som la grunnlaget for hele designstrategien:
+  </p>
+
+  <div class="insight-grid">
+
+    <div class="insight-card">
+
+      <h3>1. Minimalistisk interaksjon</h3>
+
+      <p>
+        Med under 90 øvelser var tradisjonelle søkefelt og dype filtreringsmenyer overflødige og skapte unødvendig kognitiv belastning.
+      </p>
+
+    </div>
+
+    <div class="insight-card">
+
+      <h3>2. Målrettet mental modell</h3>
+
+      <p>
+        Trenere tenker intuitivt i to akser: <strong>Hvem skal trene?</strong> (aldersgruppe) og <strong>Hva skal trenes?</strong> (øvelsestype som keeper, lagøvelser, egentrening).
+      </p>
+
+    </div>
+
+    <div class="insight-card">
+
+      <h3>3. Ekstrem skannbarhet</h3>
+
+      <p>
+        Brukerne ønsket å hurtigscanne øvelsestitler og nøkkelord. Mørke, tunge bilder og unødvendig dekorasjon trakk fokus bort fra det faglige innholdet.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     04 — FIRST CONCEPT
+========================= -->
+
+<section>
+
+  <h2>Iterativ prosess: Fra todelt oppsett til én sømløs flate</h2>
+
+  <div class="case-comparison">
+
+    <div class="comparison-item">
+
+      <img
+        class="project__img"
+        src="images/trenfotball-original-flow.png"
+        alt="Første konsept for TrenFotball med separat forside"
+      />
+
+      <h3>Førstegangskonsept: Separat landing og øvelsesside</h3>
+
+      <p>
+        Den opprinnelige arkitekturen delte plattformen i to: En dedikert landingpage for verdetilbudet og en egen underside for videobiblioteket.
+      </p>
+
+    </div>
+
+    <div class="comparison-item">
+
+    
+
+      <h3>Optimert arkitektur: Alt på én flate</h3>
+
+      <p>
+        Ved å slå sammen sidene eliminerte vi et helt steg i brukerreisen. Verdetilbudet presenteres i Hero-seksjonen, mens øvelseskategoriene ligger umiddelbart tilgjengelig rett under.
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="ux-decision">
+
+    <span class="decision-label">UX-INNSIKT & FRISJON</span>
+
+    <p>
+      I uttestingen så vi at et ekstra klikk mellom Hero-siden og biblioteket skapte unødvendig friksjon. Ved å flytte øvelsene opp på hovedsiden reduserte vi <em>Time-to-Content</em> betraktelig, noe som er avgjørende for trenere i en travel hverdag.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     05 — NEW DIRECTION
+========================= -->
+
+<section>
+
+  <p class="section-number">05 / BRUKERREISE</p>
+
+  <h2>Effektivisert brukerflyt</h2>
+
+  <p>
+    Den nye strukturen la til rette for en lineær og forutsigbar brukerreise med minimalt med avbrytelser.
+  </p>
+
+  <div class="project__img-container">
+
+    <img
+      class="project__img"
+      src="images/trenfotball-hero.png"
+      alt="Ny kombinert forside og kategoriside for TrenFotball"
+    />
+
+  </div>
+
+  <div class="user-flow">
+
+    <div class="flow-step">
+      <span>01</span>
+      <strong>Forstå</strong>
+      <small>Umiddelbar oppfatning av verdetilbudet</small>
+    </div>
+
+    <div class="flow-step">
+      <span>02</span>
+      <strong>Velg</strong>
+      <small>Filtrer på aldersgruppe eller øvelseskategori</small>
+    </div>
+
+    <div class="flow-step">
+      <span>03</span>
+      <strong>Skann</strong>
+      <small>Rask gjennomgang av øvelseskortene</small>
+    </div>
+
+    <div class="flow-step">
+      <span>04</span>
+      <strong>Spill av</strong>
+      <small>Direkte visning av video på feltet</small>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     06 — NAVIGATION ITERATION
+========================= -->
+
+<section>
+
+  <p class="section-number">06 / NAVIGASJONSDESIGN</p>
+
+  <h2>Iterasjon på kategorinavigasjon</h2>
+
+  <p>
+    Informasjonsarkitekturen måtte tåle fremtidig skalerbarhet, men samtidig opples oversiktlig for dagens MVP.
+  </p>
+
+  <div class="navigation-before">
+
+    <h3>Iterasjon 1: Skjult underkategori</h3>
+
+    <p>
+      I den første skissen ble aldersgruppene først synlige etter at hovedkategorien (f.eks. "Lagøvelser") var valgt. Dette krevde to klikk og ga lav oppdagbarhet (discoverability).
+    </p>
+
+  </div>
+
+  <div class="navigation-after">
+
+    <h3>Iterasjon 2 (Endelig løsning): Synlig og flat struktur</h3>
+
+    <p>
+      Alle aldersgrupper og kategorier ble eksponert på samme nivå. Aktiv tilstand markeres tydelig med merkevarens oransje aksentfarge. Dette gir brukeren fullstendig overblikk over hele biblioteket med én gang.
+    </p>
+
+  </div>
+
+  <div class="ux-decision">
+
+    <span class="decision-label">DESIGNBESLUTNING</span>
+
+    <p>
+      For å unngå at en flat navigasjonsstruktur føltes rotete, benyttet jeg konsistent 'spacing', visuelt hierarki og mikro-interaksjoner som gjør det lett å se hvor man befinner seg i biblioteket.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     07 — EXERCISE CARDS
+========================= -->
+
+<section>
+
+  <p class="section-number">07 / KOMPONENTDESIGN</p>
+
+  <h2>Øvelseskort optimalisert for lesbarhet</h2>
+
+  <p>
+    Kortene er kjernen i løsningen. Målet var å gi treneren nok kontekst til å ta en beslutning uten å måtte åpne videoen først.
+  </p>
+
+  <div class="project__img-container">
+
+    <img
+      class="project__img"
+      src="images/trenfotball-cards.png"
+      alt="Øvelseskort i TrenFotball med dempet bakgrunn, play-ikon og kjennetegn"
+    />
+
+  </div>
+
+  <h3>Nøkkelelementer i kortdesignet:</h3>
+
+  <ul>
+    <li><strong>Nummerering:</strong> Forenkler referanse og kommunikasjon mellom trenere.</li>
+    <li><strong>Dempet bakgrunnsbilde:</strong> Gir visuell kontekst om øvelsen uten å svekke kontrasten på teksten.</li>
+    <li><strong>Aksentueret play-knapp:</strong> Tydelig affordance som inviterer til avspilling.</li>
+    <li><strong>Doble mikro-kjennetegn:</strong> Korte nøkkelord som uttrykker øvelsens fokus og intensitet.</li>
+  </ul>
+
+  <div class="feature-pairs">
+
+    <div>
+      <strong>Mange ballberøringer</strong>
+      <span>Høy intensitet</span>
+    </div>
+
+    <div>
+      <strong>Rask omstilling</strong>
+      <span>Score mål</span>
+    </div>
+
+    <div>
+      <strong>Forsvare mål</strong>
+      <span>Konkurranse</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     08 — VISUAL DESIGN
+========================= -->
+
+<section>
+
+  <p class="section-number">08 / VISUELL IDENTITET</p>
+
+  <h2>Et sporty, mørkt og fokusert uttrykk</h2>
+
+  <p>
+    Det visuelle språket ble bygget opp rundt et mørkt tema (Dark Mode). Dette reduserer strømforbruk og blending når trenere bruker telefonen utendørs, samtidig som det gir et moderne og sporty uttrykk.
+  </p>
+
+  <div class="project__img-container">
+
+    <img
+      class="project__img"
+      src="images/trenfotball-final.png"
+      alt="Endelig hero-design for TrenFotball med mørkt tema og oransje aksentfarger"
+    />
+
+  </div>
+
+  <h3>Farge- og typografistrategi:</h3>
+
+  <p>
+    Mørk bakgrunn sikrer maksimal kontrast mot den hvite typografien. Den energiske oransjefargen benyttes utelukkende som en funksjonell aksentfarge for å lede blikket mot interaktive elementer og aktive tilstander.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     09 — MOBILE RESPONSIVENESS
+========================= -->
+
+<section>
+
+  <p class="section-number">09 / RESPONSIVT DESIGN</p>
+
+  <h2>Mobilførst-tilnærming på feltet</h2>
+
+  <p>
+    Siden en stor del av bruken skjer ute på fotballbanen, ble mobilgrensesnittet spesialtilpasset for enhåndsbetjening og rask berøringstaktilitet.
+  </p>
+
+  <div class="project__img-container">
+
+    <img
+      class="project__img"
+      src="images/trenfotball-mobile.png"
+      alt="Mobilversjon av TrenFotball med store berøringsflater"
+    />
+
+  </div>
+
+  <p>
+    Horisontale faner fra desktop ble omgjort til romslige, klikkbare kort og touch-vennlige knapper på mobil, noe som eliminerer feilklikk under kalde eller hektiske forhold.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     10 — RESULT & REFLECTION
+========================= -->
+
+<section>
+
+  <p class="section-number">10 / RESULTAT OG LÆRDOM</p>
+
+  <h2>Resultater og UX-refleksjon</h2>
+
+  <p>
+    Løsningen leverte en ekstremt spisset MVP som demonstrerer hvordan gjennomtenkt informasjonsarkitektur kan erstatte tunge teknologiske søkeløsninger i mindre biblioteker.
+  </p>
+
+  <div class="reflection-highlight">
+
+    <span>Viktigste UX-lærdom</span>
+
+    <strong>
+      God brukeropplevelse handler ikke om å legge til flere funksjoner, men om å fjerne flest mulig hindre mellom brukeren og målet deres.
+    </strong>
+
+  </div>
+
+  <p>
+    Prosjektet ga også verdifull erfaring i å balansere forretningsmål og brukerbehov, samt hvordan man itererer på komponenter for å oppnå optimal skannbarhet.
+  </p>
+
+</section>
+
+
+<!-- =========================
+     FINAL CTA
+========================= -->
+
+<section class="case-end">
+
+  <h2>TrenFotball</h2>
+
+  <p>
+    Et gjennomtenkt UX/UI-prosjekt fokusert på forenkling, tilgjengelighet og effektiv informasjonsarkitektur.
+  </p>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer id="contact">
+
+  <p>
+    &copy; 2026 Lama Ghawi | 
+    UX/UI Designer & Frontend Developer | 
+    Alle rettigheter reservert
+  </p>
+
+</footer>
+
+</body>
+</html>
