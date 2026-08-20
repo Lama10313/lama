@@ -683,79 +683,6 @@ header {
     font-size: 1rem;
   }
 
-  /* ---------- Footer ---------- */
-  .footer {
-    padding: 2.5rem 1.25rem;
-  }
-
-  .footer__social-link-item a {
-    width: 44px;
-    height: 44px;
-  }
-
-  /* ---------- Back to top ---------- */
-  .back-to-top {
-    display: none;
-  }
-}
-
-
-/* ================= TABLET / iPAD (601–1024px) ================= */
-@media (max-width: 1024px) {
-
-  /* ---------- Header ---------- */
-  .container {
-    padding-inline: 2.5rem;
-  }
-
-  /* ---------- Hero ---------- */
-  .hero-inner {
-    margin-left: 0;
-    max-width: 640px;
-  }
-
-  .hero-title {
-    font-size: 2.3rem;
-  }
-
-  /* ---------- Tools ---------- */
-  .tools-grid {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-
-  /* ---------- Projects ---------- */
-  .project {
-    grid-template-columns: 1fr;
-  }
-
-  .project__img-container {
-    aspect-ratio: 16 / 9;
-  }
-
-  .project__img-container::before {
-    transform: translate(-0.75rem, 0.75rem);
-  }
-}
-
-
-/* ================= LARGE DESKTOP (1400px+) ================= */
-@media (min-width: 1400px) {
-
-  .hero-inner {
-    max-width: 760px;
-  }
-
-  .project {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "image content";
-    align-items: center;
-  }
-
-  .project:nth-child(even) {
-    grid-template-areas: "content image";
-  }
-}
 
 
 
@@ -901,3 +828,104 @@ padding:30px;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ---------- Footer ---------- */
+  .footer {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .footer__social-link-item a {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* ---------- Back to top ---------- */
+  .back-to-top {
+    display: none;
+  }
+}
+
+
+/* ================= TABLET / iPAD (601–1024px) ================= */
+@media (max-width: 1024px) {
+
+  /* ---------- Header ---------- */
+  .container {
+    padding-inline: 2.5rem;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero-inner {
+    margin-left: 0;
+    max-width: 640px;
+  }
+
+  .hero-title {
+    font-size: 2.3rem;
+  }
+
+  /* ---------- Tools ---------- */
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  /* ---------- Projects ---------- */
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .project__img-container {
+    aspect-ratio: 16 / 9;
+  }
+
+  .project__img-container::before {
+    transform: translate(-0.75rem, 0.75rem);
+  }
+}
+
+
+/* ================= LARGE DESKTOP (1400px+) ================= */
+@media (min-width: 1400px) {
+
+  .hero-inner {
+    max-width: 760px;
+  }
+
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "image content";
+    align-items: center;
+  }
+
+  .project:nth-child(even) {
+    grid-template-areas: "content image";
+  }
+}
+
+
+
+
